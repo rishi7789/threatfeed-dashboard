@@ -32,9 +32,9 @@ function Dashboard() {
             try {
                 const response = await axios.get<ThreatData>('/src/api/mockData.json');
 
-                const result = response.data;
-                result.threats.sort((a, b) => b.risk_score - a.risk_score);
-                setData(result);
+                const threatData = response.data;
+                threatData.threats.sort((a, b) => b.risk_score - a.risk_score);
+                setData(threatData);
 
             } catch (error) {
                 console.error("Error fetching data:", error);
