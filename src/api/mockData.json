@@ -1,0 +1,53 @@
+{
+    "summary": {
+        "emails_scanned": 14820,
+        "threats_detected": 26,
+        "quarantined_items": 18
+    },
+    "threats": [
+        {
+            "id": "th_1a2b3c",
+            "timestamp": "2023-10-27T08:45:10Z",
+            "type": "Phishing",
+            "status": "Quarantined",
+            "risk_score": 95,
+            "details": {
+                "subject": "Action Required: Your Account Has Been Suspended",
+                "sender": "support@microsft.com"
+            }
+        },
+        {
+            "id": "th_4d5e6f",
+            "timestamp": "2023-10-27T07:12:30Z",
+            "type": "Malware",
+            "status": "Blocked",
+            "risk_score": 82,
+            "details": {
+                "subject": "Scanned Document: invoice_2023.pdf",
+                "sender": "scanner@company-printer.com"
+            }
+        },
+        {
+            "id": "th_7g8h9i",
+            "timestamp": "2023-10-27T06:55:00Z",
+            "type": "Spam",
+            "status": "Quarantined",
+            "risk_score": 40,
+            "details": {
+                "subject": "Exclusive Offer Just For You!",
+                "sender": "marketing@deals-unlimited.com"
+            }
+        },
+        {
+            "id": "th_9j8k7l",
+            "timestamp": "2023-10-27T04:20:15Z",
+            "type": "Phishing",
+            "status": "Blocked",
+            "risk_score": 98,
+            "details": {
+                "subject": "URGENT: Verify Your Bank Details Now",
+                "sender": "security@paypa1.com"
+            }
+        }
+    ]
+}
